@@ -38,8 +38,8 @@ const ModuleCard = ({ url, name, image, description, validatorKey, verified, tag
           <Link href={url} target="_blank">
 
             <div className="justify-center card-title">{name}
-            <div className="tooltip tooltip-top" data-tip="verified">
-              <MdVerified className={`${!verified ? 'hidden' : verified && name === 'ComHub' ? 'text-yellow-500' : 'text-blue-500'}`} />
+              <div className="tooltip tooltip-top" data-tip="verified">
+                <MdVerified className={`${!verified ? 'hidden' : verified && name === 'ComHub' ? 'text-yellow-500' : 'text-blue-500'}`} />
               </div>
             </div>
             <div className="flex justify-center px-4 py-16 bg-base-200">
@@ -59,7 +59,7 @@ const ModuleCard = ({ url, name, image, description, validatorKey, verified, tag
                   'badge-primary': tag === 'staking',
                   'badge-info': tag === 'bridge',
                   'badge-secondary': tag === 'wallet',
-                  'badge-success': tag === 'chat' || tag === 'GPT' || tag === 'events',
+                  'badge-success': tag === 'chat' || tag === 'GPT' || tag === 'events' || tag === 'guide',
                   'badge-warning': tag === "hub",
                   'badge-error': tag === "new",
                   'badge-default': tag === 'com' || tag === 'coming soon' || tag === 'Ai'

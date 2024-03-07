@@ -11,7 +11,7 @@
 //     includeScore: true,
 //     threshold: 0.4,
 //  };
-//  const fuse = new Fuse(modules, options); 
+//  const fuse = new Fuse(modules, options);
 //  return fuse.search(query);
 // };
 
@@ -22,7 +22,7 @@
 //  const handleInputChange = (e) => {
 //     const query = e.target.value;
 //     setInputValue(query);
-//     const results = searchModules(query); 
+//     const results = searchModules(query);
 //     setSuggestions(results.map(result => result.item));
 //  };
 
