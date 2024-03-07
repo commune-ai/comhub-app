@@ -82,7 +82,7 @@
         "description": "coming soon",
         "validatorKey": "vali::unknown",
         "verified": false,
-        "tags": ["transactions", "explorer"],
+        "tags": ["transactions", "explorer","Prediction", "wallet"],
         "disabled": true
 
     }
