@@ -7,18 +7,6 @@ import Ticker from '../ticker';
 import Link from 'next/link';
 import classnames from 'classnames';
 
-// // import CMCWidget from '../CMCWidget';
-// import Script from 'next/script';
-
-// const CMCWidget = () => {
-//  return (
-//     <>
-//       <div id="coinmarketcap-widget-marquee" coins="29509,22974,1,1027" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"></div>
-//       <Script src="https://files.coinmarketcap.com/static/widget/coinMarquee.js" strategy="beforeInteractive" />
-//     </>
-//  );
-// };
-
 import {
   FaDiscord,
   FaGithub,
@@ -43,8 +31,8 @@ const Navbar = () => {
             <Link href="https://www.comhub.app/">
               <button className="btn btn-ghost text-xl">
                 <Image
-                  width={35}
-                  height={35}
+                  width={45}
+                  height={45}
                   // onClick={handleConnect}
                   className="cursor-pointer"
                   alt="ComHub - the hub for commune ai modules"

@@ -63,6 +63,28 @@
         "tags": ["bridge", "wallet"],
         "disabled": false
 
+    },
+    {
+        "name": "Coming Soon",
+        "url": "https://communeai.org/",
+        "image": "/images/comai-webp.webp",
+        "description": "coming soon",
+        "validatorKey": "vali::unknown",
+        "verified": false,
+        "tags": ["docs", "whitepaper"],
+        "disabled": true
+
+    },
+    {
+        "name": "Coming Soon",
+        "url": "https://comscanner.app/",
+        "image": "/images/comai-webp.webp",
+        "description": "coming soon",
+        "validatorKey": "vali::unknown",
+        "verified": false,
+        "tags": ["transactions", "explorer"],
+        "disabled": true
+
     }
 
 ]
