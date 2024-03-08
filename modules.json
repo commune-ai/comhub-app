@@ -6,7 +6,10 @@
         "description": "The hub for Commune Ai modules",
         "validatorKey": "5EJ9AUpSGafWeagdP5nwc5AwcYBkagYSZyx2BmLKWJrGBZUZ",
         "verified": true,
-        "tags": ["com","hub"],
+        "tags": [
+            "com",
+            "hub"
+        ],
         "disabled": false
     },
     {
@@ -16,7 +19,11 @@
         "description": "All statistics of Commune Ai in one place",
         "validatorKey": "5H9YPS9FJX6nbFXkm9zVhoySJBX9RRfWF36abisNz5Ps9YaX",
         "verified": true,
-        "tags": ["stats", "staking", "wallet"],
+        "tags": [
+            "stats",
+            "staking",
+            "wallet"
+        ],
         "disabled": false
     },
     {
@@ -26,10 +33,12 @@
         "description": "LLM GPT aggregator built on Commune Ai",
         "validatorKey": "5D4o6H19z6ctWjS9HzxBpMxqhuzCCCsgXk49AqXGPUqZEpRt",
         "verified": true,
-        "tags": ["chat","GPT","Ai"],
+        "tags": [
+            "chat",
+            "GPT",
+            "Ai"
+        ],
         "disabled": false
-
-
     },
     {
         "name": "ComSwap.io",
@@ -38,9 +47,11 @@
         "description": "$COMAI trading platform",
         "validatorKey": "5CXiWwsS76H2vwroWu4SvdAS3kxprb7aFtqWLxxZC5FNhYri",
         "verified": true,
-        "tags": ["staking", "wallet"],
+        "tags": [
+            "staking",
+            "wallet"
+        ],
         "disabled": false
-
     },
     {
         "name": "ComWallet by ComSwap",
@@ -49,32 +60,26 @@
         "description": "Non-custodial wallet for $COMAI",
         "validatorKey": "5CXiWwsS76H2vwroWu4SvdAS3kxprb7aFtqWLxxZC5FNhYri",
         "verified": true,
-        "tags": ["staking", "wallet"],
+        "tags": [
+            "staking",
+            "wallet"
+        ],
         "disabled": false
-
     },
     {
-        "name": "ComBridge by ComSwap",
-        "url": "https://bridge.comwallet.io/",
-        "image": "/images/combridge-logo.png",
-        "description": "$COMAI bridge to Ethereum (ETH) Mainnet",
+        "name": "Commune AI",
+        "url": "https://commune-frontend-phi.vercel.app/",
+        "image": "/images/commune.gif",
+        "description": "Display all modules in Commune AI",
         "validatorKey": "5CXiWwsS76H2vwroWu4SvdAS3kxprb7aFtqWLxxZC5FNhYri",
         "verified": true,
-        "tags": ["bridge", "wallet"],
+        "tags": [
+            "modules",
+            "wallet",
+            "guide"
+        ],
         "disabled": false
-
-    },
-    {
-        "name": "Coming Soon",
-        "url": "https://communeai.org/",
-        "image": "/images/comai-webp.webp",
-        "description": "coming soon",
-        "validatorKey": "vali::unknown",
-        "verified": false,
-        "tags": ["docs", "whitepaper"],
-        "disabled": true
-
-    },
+    }
     {
         "name": "Coming Soon",
         "url": "https://comscanner.vercel.app/",
@@ -86,6 +91,5 @@
         "disabled": true
 
     }
-
 
 ]
