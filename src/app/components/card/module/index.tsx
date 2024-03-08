@@ -30,7 +30,13 @@ const ModuleCard = ({ url, name, image, description, validatorKey, verified, tag
     <>
       <div className="card card-compact w-96 bg-base-100 shadow-xl m-4">
         <div className="mockup-browser border bg-base-300 h-full">
-          <div className="mockup-browser-toolbar">
+                  {/*  hover:bg-inherit transition ease-in-out */}
+        {disabled && (
+          <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg flex items-center justify-center">
+            <div className="text-white text-2xl font-bold">Coming Soon</div>
+          </div>
+        )}
+         <div className="mockup-browser-toolbar">
             <Link href={url} target="_blank" className="input">
               <u>{url}</u>
             </Link>

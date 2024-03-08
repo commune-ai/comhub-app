@@ -80,4 +80,16 @@
         ],
         "disabled": false
     }
+    {
+        "name": "Coming Soon",
+        "url": "https://comscanner.vercel.app/",
+        "image": "/images/comai-webp.webp",
+        "description": "coming soon",
+        "validatorKey": "vali::unknown",
+        "verified": false,
+        "tags": ["transactions", "explorer","Prediction", "wallet"],
+        "disabled": true
+
+    }
+
 ]
